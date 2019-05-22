@@ -1,0 +1,235 @@
+body {
+  background-color: #f6f8f9;
+}
+h1,
+h3 {
+  font-weight: 500;
+}
+header {
+  position: relative;
+  background-color: #ef9a9a;
+}
+
+header .navbar-fixed .sidenav-trigger {
+  margin: 0 35px;
+}
+
+header .navbar-fixed .sidenav-trigger i {
+  font-size: 2.5em;
+}
+
+nav {
+  background-color: #ef9a9a;
+}
+
+nav ul a {
+  color: #fff;
+  font-weight: 500;
+}
+
+nav a {
+  color: white;
+}
+
+nav ul a:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #9e9e9e;
+  font-weight: 500;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-box-center {
+  display: flex;
+  justify-content: center;
+}
+
+.intro-card {
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  z-index: 2;
+  position: relative;
+}
+
+.intro {
+  margin: 0;
+  color: #424242;
+}
+
+.margin-center {
+  margin: auto;
+}
+
+.intro .container h1 {
+  margin-top: -30px;
+}
+
+.intro .container p {
+  color: #9e9e9e;
+}
+
+.intro-card::before {
+  content: "";
+  width: 100%;
+  height: 30px;
+  display: block;
+  bottom: 0px;
+  position: absolute;
+  background-color: #f6f8f9;
+  z-index: 1;
+}
+
+header::before {
+  content: "";
+  width: 100%;
+  height: 80px;
+  display: block;
+  bottom: 0px;
+  position: absolute;
+  background-color: #f6f8f9;
+  z-index: 1;
+}
+
+header .intro .container hr {
+  border-bottom-color: #bdbdbd;
+  border-left-color: rgba(255, 255, 255, 0);
+  border-top-color: rgba(255, 255, 255, 0);
+  border-right-color: rgba(255, 255, 255, 0);
+}
+
+header .row .no-padding {
+  position: relative;
+}
+
+header .intro .btn-large {
+  background-color: #ef9a9a;
+  font-weight: 500;
+}
+
+.space-bottom {
+  padding-bottom: 15px;
+}
+
+section#blog .card .card-image img {
+  height: 200px;
+  object-fit: cover;
+}
+
+section .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section .title h3 {
+  font-size: 1.4em;
+}
+
+section .title a {
+  color: #000;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+section .title i {
+  vertical-align: -0.8vh;
+  color: black;
+}
+
+section#blog .card .card-title {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+section#blog .card .time {
+  padding-top: 10px;
+}
+
+section#blog .card .time i {
+  vertical-align: -0.4vh;
+  font-size: 1.4em;
+}
+
+section#blog .card p {
+  color: #9e9e9e;
+}
+
+section#portafolio .card .card-reveal .card-title {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+section#portafolio .card .card-reveal p {
+  color: #9e9e9e;
+}
+
+section#portafolio .m4 .card .card-image img {
+  height: 300px;
+  object-fit: cover;
+}
+
+section#portafolio .bottom-space {
+  padding-bottom: 2px;
+}
+
+footer.page-footer {
+  background-color: #a6adb4;
+  padding-bottom: 20px;
+}
+
+.custom-input {
+  border-radius: 5px;
+  border-color: #d3d2d46b !important;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+input[type="text"]:not(.browser-default):focus:not([readonly]),
+input[type="email"]:not(.browser-default):focus:not([readonly]) {
+  border: 0px;
+  box-shadow: none;
+  margin: 0;
+  color: #fff;
+}
+
+input[type="text"]:not(.browser-default),
+input[type="email"]:not(.browser-default) {
+  border: 0px;
+  box-shadow: none;
+  margin: 0;
+  color: #fff;
+}
+
+.custom-input i {
+  color: #fff;
+}
+
+footer.page-footer .social-menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+footer.page-footer .social-menu ul li {
+  padding-left: 25px;
+}
+
+footer.page-footer .social-menu ul li a img {
+  width: 1.5em;
+}
+
+footer.page-footer .white-text {
+  font-weight: 500;
+}
