@@ -1,0 +1,64 @@
+@media screen and (max-width: 2560px) {
+  header .intro h1 {
+    font-weight: bold;
+    letter-spacing: 0.04em;
+  }
+  header .intro h3 {
+    font-size: 1.92rem;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .intro .container h1 {
+    font-size: 2em;
+  }
+
+  .intro .container h3 {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header .intro .container p {
+    font-size: 1em;
+  }
+
+  header .flex-box .no-padding img {
+    height: 560px;
+    object-fit: cover;
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .intro-card::before {
+    display: none;
+  }
+  .intro .container h1 {
+    margin-top: 30px;
+  }
+  .intro-card {
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer.page-footer .social-menu ul {
+    justify-content: flex-start;
+  }
+
+  footer.page-footer .social-menu ul li {
+    padding-right: 25px;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    top: 10%;
+  }
+  header .navbar-fixed .sidenav-trigger {
+    margin: 0 17px;
+  }
+}
